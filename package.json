@@ -51,6 +51,9 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "handlebars": "^4.7.6",
+    "lg-autoplay.js": "^1.2.0",
+    "lg-thumbnail.js": "^1.2.0",
+    "lightgallery.js": "^1.4.0",
     "photoswipe": "^4.1.3"
   }
 }
