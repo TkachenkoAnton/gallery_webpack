@@ -3,10 +3,6 @@ import galleryImg from './galleryItems.js';
 
 const refs = {
     jsGallery: document.querySelector('.js-gallery'),
-    jsLightbox: document.querySelector('.js-lightbox'),
-    lightboxOverlay: document.querySelector('.lightbox__overlay'),
-    jsLightboxImage: document.querySelector('.lightbox__image'),
-    closeLightbox: document.querySelector('button[data-action="close-lightbox"]'),
 }
 
 refs.jsGallery.insertAdjacentHTML('beforeend', galleryImg.map(({ preview, original, description }) =>
